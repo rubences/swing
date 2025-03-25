@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;   
 import javax.swing.JFrame;
 
 public class Frame5 extends JFrame {
@@ -19,9 +17,4 @@ public class Frame5 extends JFrame {
         panel.setBackground(Color.red);
     }
 
-    public static void main(String[] args) {
-        Frame5 frame = new Frame5();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-    }
 }
