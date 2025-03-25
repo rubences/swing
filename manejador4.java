@@ -1,7 +1,7 @@
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;   
 
-class manejador implements WindowListener { 
+class manejador4 implements WindowListener { 
     
     @Override
     public void windowClosing(WindowEvent e) { 
